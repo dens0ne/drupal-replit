@@ -1,0 +1,5 @@
+{
+    "require": {
+        "drupal/legacy-project": "^9.3"
+    }
+}
