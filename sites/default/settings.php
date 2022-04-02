@@ -769,13 +769,14 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+// DO NOT ALLOW PEOPLE TO LOOK AT YOUR DB SETTINGS, THIS IS HERE MERELY FOR DEMONSTRATION.
 $databases['default']['default'] = array (
-  'database' => 'xuBaCSxGgS',
-  'username' => 'xuBaCSxGgS',
-  'password' => 'O69N9IHTSl',
+  'database' => '',
+  'username' => '',
+  'password' => '',
   'prefix' => '',
-  'host' => 'remotemysql.com',
-  'port' => '3306',
+  'host' => '',
+  'port' => '',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
