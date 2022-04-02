@@ -1,18 +1,3 @@
-## Replit project - Getting started
-- Fork this, make sure you have this in your `replit.nix` project:
-```
-{ pkgs }: {
-	deps = [
-		pkgs.php74
-    pkgs.mariadb
-    pkgs.php74Packages.composer
-	];
-}
-```
-- Follow [this tutoral](https://replit.com/talk/learn/Create-Account-Database-MySQL-nodejs/20263) to setup a remote DB (or figure how to do it within Replit).
-- Click the `Run` button and get started
-- Go to your project URL in your favorite browser and start installing the site with the credentials from the DB created above
-
 <img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
 
 Drupal is an open source content management platform supporting a variety of
